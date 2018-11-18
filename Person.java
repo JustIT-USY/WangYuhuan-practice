@@ -1,8 +1,9 @@
-package week7;
-class Person{
-	int age;//定义int类型的变量age
-	//定义speak()方法
-	void speak() {
-		System.out.println("大家好，我今年" + age + "岁!");
+package homework;
+class Person {	
+	String name;
+	int age;
+	String sex;
+	public void introduce() {
+		System.out.println("Hello,我叫" + name + ",今年" + age + "岁,性别" + sex + ",希望可以和你交个朋友！");
 	}
-}	
+}
